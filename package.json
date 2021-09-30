@@ -1,0 +1,16 @@
+{
+  "name": "motion",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "express-rate-limit": "^5.3.0",
+    "ejs": "^3.1.6",
+    "ms": "^2.1.3"
+  }
+}

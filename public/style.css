@@ -1,0 +1,180 @@
+body {
+  background-color: #111111;
+  background-attachments: fixed;
+  background-image: url(https://searchunique.news/img/products/32253-laeacco-koyu-siyah-degrade-duez-renk-duvar-grunge-parti-portre-fotograf-arka-plan-fotograf-arka-fonu-photocall-fotograf-stuedyosu.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+}
+
+.box {
+  overflow: hidden;
+  background-color: #111;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.box > .box-image > img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+}
+
+.box > h1 {
+  font-family: balsamiq sans, cursive;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+}
+
+.box > p {
+  font-family: balsamiq sans, cursive;
+  font-weight: bolder;
+  color: #bbb;
+  text-align: center;
+  font-style: italic;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-box > div {
+  padding: 5px;
+  margin: 5px;
+}
+
+.flex-box > div > a {
+  font-family: balsamiq sans, cursive;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: 250ms all;
+}
+
+.flex-box > div > hr {
+  border: none;
+  background: #bbb;
+  height: 2px;
+  transition: 250ms all;
+}
+
+.flex-box > div > a:hover + hr {
+  background: red;
+}
+
+.discordcard {
+  background-color: #2c2f33;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.discordcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 3px 3px #000;
+}
+
+.nav-link {
+  color: #fff;
+  transition: all 0.3s;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.nav-link:hover {
+  color: #84dde2;
+  background-color: #2c2f33;
+}
+
+
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+  animation: loader 1.2s linear infinite;
+}
+.bar1 {
+  animation-delay: 0.1s;
+}
+.bar2 {
+  animation-delay: 0.2s;
+}
+.bar3 {
+  animation-delay: 0.3s;
+}
+.bar4 {
+  animation-delay: 0.4s;
+}
+.bar5 {
+  animation-delay: 0.5s;
+}
+.bar6 {
+  animation-delay: 0.6s;
+}
+.bar7 {
+  animation-delay: 0.7s;
+}
+.bar8 {
+  animation-delay: 0.8s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scaleY(0.1);
+    background: ;
+  }
+  50% {
+    transform: scaleY(1);
+    background: yellowgreen;
+  }
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+.pluse-avatar-dnd {
+	background-color: #7289da;
+	border-radius: 50%;
+	animation: pulse-dnd 2s infinite;
+}
+
+@keyframes pulse-dnd {
+	0% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(114, 137, 218, 0.5) 
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+
+  
+  #title {
+    margin: auto;
+    display: block;
+  }
