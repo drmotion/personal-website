@@ -1,5 +1,5 @@
 {
-  "name": "motion",
+  "name": "mythors",
   "scripts": {
     "start": "node app.js"
   },
